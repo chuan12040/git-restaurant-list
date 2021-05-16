@@ -1,0 +1,29 @@
+<!-- ./views/show.handlebars -->
+<div class="container py-5">
+  <div class="text-center">
+    <h1 class="mb-4">{{restaruant.name}}</h1>
+    <img class="rounded mb-4" src="{{restaruant.image}}" alt="Card image cap" style="max-height: 300px;">
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+
+      <p class="text-secondary mb-1">
+        <strong>類別: </strong>
+        {{restaruant.category}}
+      </p>
+      <p class="text-secondary mb-1">
+        <strong>地址: </strong>
+        {{restaruant.location}}
+      </p>
+      <p class="text-secondary mb-1">
+        <strong>電話: </strong>
+        {{restaruant.phone}}
+      </p>
+
+      <p>
+      <h6>簡介:</h6>
+      {{restaruant.description}}
+      </p>
+    </div>
+  </div>
+</div>
